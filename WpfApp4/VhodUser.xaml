@@ -1,0 +1,17 @@
+﻿<Page x:Class="WpfApp4.VhodUser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp4"
+      mc:Ignorable="d" 
+      d:DesignHeight="268" d:DesignWidth="718"
+      Title="VhodUser">
+
+    <Grid>
+        <TextBox x:Name="LoginUserTextBox" HorizontalAlignment="Left" Height="23" Margin="325,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PassUserTextBox" HorizontalAlignment="Left" Height="23" Margin="325,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="GO" HorizontalAlignment="Left" Margin="345,168,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Page>

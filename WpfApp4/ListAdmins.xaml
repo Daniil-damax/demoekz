@@ -1,0 +1,15 @@
+﻿<Page x:Class="WpfApp4.ListAdmins"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp4"
+      mc:Ignorable="d" 
+      d:DesignHeight="258" d:DesignWidth="774"
+      Title="ListAdmins">
+
+    <Grid>
+        <DataGrid x:Name="DataGridAdmins" HorizontalAlignment="Left" Height="221" Margin="58,27,0,0" VerticalAlignment="Top" Width="672" SelectionChanged="DataGrid_SelectionChanged"/>
+
+    </Grid>
+</Page>
